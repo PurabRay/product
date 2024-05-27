@@ -1,0 +1,26 @@
+
+  
+  /* Styling for the service container */
+  .service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between the service boxes */
+  }
+  
+  /* Styling for individual service boxes */
+  .service {
+    width:200px; /* Adjust width to fit four items per row with margins */
+    background-color:rgb(255, 118, 77); /* Background color of the service boxes */
+    color: white; /* Text color inside the service boxes */
+    padding: 20px;
+    height:200px;
+    margin:60px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px; /* Minimum width for smaller screens */
+  }

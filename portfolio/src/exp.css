@@ -1,0 +1,37 @@
+.container{
+   padding-left:20px;
+}
+  
+  /* Styling for the header */
+  .header h1 {
+    position:relative;
+    color:rgb(255, 118, 77); 
+    text-align: center;
+    margin-bottom: 20px;
+    display:flex-end;
+  }
+  
+  /* Styling for the container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+  }
+  
+  /* Styling for individual experience boxes */
+  .exps {
+    
+    position:relative;
+    background-color: #f565394d;/* Background color of the experience boxes */
+    color: white; /* Text color inside the experience boxes */
+    padding: 20px;
+    margin-bottom: 10px; /* Spacing between the experience boxes */
+    width: 600px; /* Width of the experience boxes */
+    height:75px;
+    border-radius: 15px; /* Rounded corners */
+    text-align: left;
+    cursor:pointer;
+  }
+  .exps:hover {
+    background-color: #ff6666;/* Lighter text color on hover */
+  }

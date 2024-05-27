@@ -1,0 +1,28 @@
+.homepage {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .section-left {
+    width: 40%; /* Explicitly set width to 40% */
+    background-color:  #ff6666; /* Background color for the left side */
+  }
+  
+  .section-right {
+    width: 60%; /* Explicitly set width to 60% */
+    
+    color: white; /* White text color for contrast */
+    padding: 20px; /* Padding for the right side */
+  }
+  .image-container {
+    position: absolute; /* Position the image container absolutely */
+    top: 50%; /* Align the image container vertically in the middle */
+    left: calc(28.5%); /* Align the image container to the center (40% of parent's width - half of image width) */
+    transform: translateY(-50%); /* Center the image container vertically */
+    width: 300px; /* Width of the image container */
+    height: 300px; /* Height of the image container */
+    border-radius: 50%; /* Make the image container round */
+    background-color: white; /* Background color for the image container */
+    border: 2px solid black; /* Border for the image container */
+  }
