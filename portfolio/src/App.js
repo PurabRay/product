@@ -14,6 +14,7 @@ function App() {
     
    
      <div class="container">
+      
       <Homepage />
       <Whoiam />
       <Education />
